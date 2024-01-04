@@ -1,0 +1,37 @@
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8fc;
+}
+
+.content{
+    padding: 1rem;
+    background-color: #fff;
+    height: 100vh;
+}
+
+@media screen and (min-width: 390px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 576px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+}
