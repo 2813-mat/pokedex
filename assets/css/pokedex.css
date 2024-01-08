@@ -72,6 +72,7 @@
 
 .pokemon .name{
     color: #fff;
+    text-transform: capitalize;
     margin-bottom: .25rem;
 }
 
@@ -109,3 +110,13 @@
     height: 70px;
     align-self: flex-end;
 }
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
